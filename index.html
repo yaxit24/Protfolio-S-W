@@ -3,11 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <link href="index.css" type="stylesheet" type="text/css">   <!--   the css file is alredy linked --> 
+    <title>Portfolio | Yakshit Savaliya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #023e8a;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .project, .skill {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-<!--   PLEASE WRITE COMMENTS, WILL MAKE THE CODE MORE ACCESIBLE -->
-    
+    <header>
+        <h1>Yakshit Savaliya</h1>
+        <p>Computer Science | AI & ML Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Yakshit Savaliya, a B.Tech student specializing in AI and ML at Ajeenkya DY Patil University. I am passionate about AI, machine learning, and web development.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: AI Chatbot</h3>
+            <p>Built a simple chatbot using Python and Natural Language Processing (NLP) techniques.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill">
+            <p>Python, AI, Machine Learning</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:yakshit@example.com">yakshit@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yakshit-savaliya" target="_blank">linkedin.com/in/yakshit-savaliya</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yakshit Savaliya. All rights reserved.</p>
+    </footer>
 </body>
 </html>
