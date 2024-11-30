@@ -6,50 +6,94 @@
     <title>Portfolio | Yakshit Savaliya</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
         }
         header {
-            background-color: #0077b6;
+            background: linear-gradient(135deg, #0077b6, #023e8a);
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        header p {
+            margin: 10px 0;
         }
         nav {
             background-color: #023e8a;
             padding: 10px;
+            text-align: center;
         }
         nav a {
             color: white;
             margin: 0 15px;
             text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #90e0ef;
         }
         section {
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #0077b6;
+            border-bottom: 3px solid #90e0ef;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .project, .skill {
+            background-color: white;
             padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .project:hover, .skill:hover {
+            transform: translateY(-5px);
         }
         footer {
             background-color: #0077b6;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 15px 0;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
+        a {
+            color: #0077b6;
+            text-decoration: none;
         }
-        .project, .skill {
-            margin: 10px 0;
+        a:hover {
+            text-decoration: underline;
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Yakshit Savaliya</h1>
-        <p>Computer Science | AI & ML Enthusiast</p>
+        <p>Computer Science | AI & ML Enthusiast | Full-Stack Developer</p>
     </header>
 
     <nav>
@@ -61,28 +105,35 @@
 
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Hello! I'm Yakshit Savaliya, a B.Tech student specializing in AI and ML at Ajeenkya DY Patil University. I am passionate about AI, machine learning, and web development.</p>
+        <p>Hello! I'm Yakshit Savaliya, a B.Tech student specializing in AI and ML at Ajeenkya DY Patil University. I am passionate about leveraging AI, machine learning, and web development to create impactful projects and solutions.</p>
     </section>
 
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="project">
             <h3>Project 1: Portfolio Website</h3>
-            <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+            <p>A responsive portfolio website built with HTML, CSS, and JavaScript, showcasing skills and projects in an engaging layout.</p>
         </div>
         <div class="project">
             <h3>Project 2: AI Chatbot</h3>
-            <p>Built a simple chatbot using Python and Natural Language Processing (NLP) techniques.</p>
+            <p>Developed a simple chatbot using Python and Natural Language Processing (NLP) techniques to handle basic user queries.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Task Management App</h3>
+            <p>Built a task management app using the MERN stack to organize and prioritize tasks efficiently.</p>
         </div>
     </section>
 
     <section id="skills" class="container">
         <h2>Skills</h2>
         <div class="skill">
-            <p>HTML, CSS, JavaScript</p>
+            <p><strong>Programming Languages:</strong> HTML, CSS, JavaScript, Python</p>
         </div>
         <div class="skill">
-            <p>Python, AI, Machine Learning</p>
+            <p><strong>Frameworks & Tools:</strong> React, Node.js, Express, MongoDB, Flask</p>
+        </div>
+        <div class="skill">
+            <p><strong>AI & Machine Learning:</strong> TensorFlow, PyTorch, NLP, Data Analysis</p>
         </div>
     </section>
 
@@ -90,6 +141,7 @@
         <h2>Contact Me</h2>
         <p>Email: <a href="mailto:yakshit@example.com">yakshit@example.com</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/yakshit-savaliya" target="_blank">linkedin.com/in/yakshit-savaliya</a></p>
+        <p>GitHub: <a href="https://github.com/yakshit-savaliya" target="_blank">github.com/yakshit-savaliya</a></p>
     </section>
 
     <footer>
