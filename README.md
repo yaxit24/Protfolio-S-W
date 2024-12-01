@@ -6,7 +6,7 @@ Vivek 💡
 yakshit 🤖
 Harikrushn 👨‍💻
 ## 📌 Project Overview
-Our team—Vivek, You, and Harikrushn—set out to build a simple yet responsive website to showcase our learning journey in HTML and CSS. This project serves as a hands-on demonstration of the core web development skills we’ve acquired and provides a practical example of how to structure and style a webpage.
+Our team—Vivek, me , and Harikrushn—set out to build a simple yet responsive website to showcase our learning journey in HTML and CSS. This project serves as a hands-on demonstration of the core web development skills we’ve acquired and provides a practical example of how to structure and style a webpage.
 
 We focused on creating a clean, accessible, and responsive webpage, combining HTML for content structure and CSS for styling and layout. The end result is a fully functional web page that adapts to various screen sizes and provides an engaging user experience.
 
