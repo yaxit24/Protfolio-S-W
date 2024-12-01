@@ -3,7 +3,7 @@
 
 ## Team Members 👨‍💻👨‍💻👨‍💻
 Vivek 💡
-You (Your Name) 🤖
+yakshit 🤖
 Harikrushn 👨‍💻
 ## 📌 Project Overview
 Our team—Vivek, You, and Harikrushn—set out to build a simple yet responsive website to showcase our learning journey in HTML and CSS. This project serves as a hands-on demonstration of the core web development skills we’ve acquired and provides a practical example of how to structure and style a webpage.
