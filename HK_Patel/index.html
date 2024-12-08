@@ -11,16 +11,27 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
     *{
-      padding: 0;
+      padding: 0; 
       margin: 0;
     }
+    
     body{
       background-color: rgb(39, 40, 42);
       color: white;
       margin: 0;
       font-family: 'Poppins',sans-serrif;
     }
+    .left {
+      font-size: 1.9rem;
+      transition: all 0.3s ease; /* Smooth transition effect */
+    }
 
+    .left:hover {
+      font-size: 2rem;
+      color: rgb(101, 101, 241);
+      border-radius: 15px; /* Adds a curve effect */
+      background-color: rgba(101, 101, 241, 0.1); 
+    }
     nav{
         display: flex;
         justify-content: space-around;
@@ -33,11 +44,12 @@
         display: flex;
         justify-content: center;
     }
-
+    
     nav ul li{
         list-style: none;
         margin: 0 23px;
     }
+
     nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
@@ -45,14 +57,16 @@
     padding: 5px 10px;
     border-radius: 0;
     transition: all 0.4s ease;
-}
+    }
+
     nav ul li a:hover {
     text-decoration: none;
     color: rgb(101, 101, 241);  
     font-size: 1.25rem;
     background-color: rgba(246, 246, 251, 0.1);
     border-radius: 15px;
-}
+    }
+
     .left{
         font-size: 1.5rem;  
     }
@@ -62,41 +76,147 @@
         justify-content: space-around;
         align-items: center;
     }
+
     .firstsection div{
-        width: 30%;  
+        width: 30%;
+        margin-top: 0px;
     }
+
     .left-section{
-        /* background-color: red;  */
         font-size: 2.5rem;
-        margin: 70px 0; 
+        font-family: sans-serif;
+        font-weight: bold;
     }
+
     .purple{
       color: rgb(188, 25, 188);
     }
+
     .secondSection{
       max-width: 80vw;
       margin: auto;
     }
+
     .sociallink{
+        margin-top: 0px;
         margin-left: 10.5rem;
         display: flex;
         justify-content: space-between;
     }
+
     .icon{
         padding: auto;
-    }
-    .icon{
         margin-left: 10px;
         margin-right: 10px;
     }
+
     a{
         text-decoration: none;
     }
+
     .icon i {
         font-size: 50px;
         border: 1px solid ba;
     }
+    .skill{
+      display: flex;
+      justify-content: space-between;
+    }
+    #second{
+      font-size: 2.2rem;
+      margin-top: 90px;
+      margin-left: 150px;
+      font-style: italic;
+      font-weight: bold;
+    }
+    #skill{
+      max-width: 75%;
+      font-size: 1.6rem;
+      font-weight: 200;
+      font-style: normal;
+      margin-top: 13px;
+    }
+    #logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 70%;
+  }
 
+  #logo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logo i {
+    font-size: 3rem;
+    color: white;
+  }
+
+  #logo p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: center;
+  }
+  #logo i {
+  font-size: 3rem; 
+  color: #CCCCCC; 
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+#logo i:hover {
+  color: rgb(82, 56, 231); 
+  transform: scale(1.2); 
+}
+#logo-discription {
+  margin-top: 20px; /* Add space between logos and description */
+  color: #CCCCCC; /* Light gray for text */
+  font-size: 1.2rem; 
+  line-height: 1.6; 
+  max-width: 80%; 
+}
+#Work{
+  margin-left: 150px;
+  font-size: 4.5rem;
+  margin-top: 5rem;
+}
+#schoolname , #collagename{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 120px;
+}
+
+#school ,#collage{
+  flex: 0 0 auto;  
+  text-align: center;
+}
+
+#ssoaimg,#collagelogo {
+  margin-right: 30px;
+  height: 350px;  
+  width: auto; 
+}
+
+#education-content,#nst{
+  flex: 1;
+  color: white;
+  font-size: 1.8rem;  
+}
+
+#education-content h1 {
+  font-size: 2.5rem;  
+  margin-bottom: 10px;
+  color: white;  
+}
+#nst h1 {
+  font-size: 2.5rem;  
+  margin-bottom: 10px;
+  color: white;  
+}
 </style>
 </style>
   </style>
@@ -120,23 +240,21 @@
   <main>
     <section class="firstsection">
         <div  class="left-section">Hi, <span id="element"></span> </div> 
-        <div  class="right-section">
-          <img src="hk1.png" width="110%" height="130%">
+        <div  class="right-section" style="margin: 0px;">
+          <img src="hk1.png" width="120%" height="120%">
         </div>
     </section>
     <section class="sociallink">
         <div class="links">
-            <a href="https://github.com/Harikrushn9118" class="icon" target="_blank">
-                <!-- <img src="git.svg" alt="GitHub" height="40px" width="40px"> -->
-                <!-- <i class="fa-brands fa-github fa-beat-fade" style="color: #e10e0e; height: 40px; width: 40px;"></i> -->
-                <i class="fa-brands fa-github fa-beat" style="color: #0d0d0d;"></i>
+          <a href="https://github.com/Harikrushn9118" class="icon" target="_blank">
+            <!-- <i class='fab fa-github-square' style='font-size:48px; background-color: white;color: black;border-radius:50px;border: 1px solid black;'></i> -->
+            <i class="fab fa-github" style="color:white;background-color: black;border-radius: 50%;"></i>
+          </a>
             </a>
             <a href="https://www.linkedin.com/in/hk-patel-b18b7a328/" class="icon" target="_blank">
-                <!-- <img src="linkedin.png" alt="LinkedIn" height="40px" width="40px"> -->
-                <i class="fab fa-linkedin-in"></i>
+              <i class="fa-brands fa-linkedin" style="color: #74C0FC;"></i>
             </a>
             <a href="hkssoa@gmail.com" class="icon" target="_blank">
-                <!-- <img src="gmail.png" alt="Email" height="40px" width="40px"> -->
                 <i class="fas fa-envelope"></i>
                 <span></span>
             </a>
@@ -148,6 +266,81 @@
             </a>
         </div>
     </section>
+    <section class="skill">
+      <div class="first">
+        <img src="output-onlinegiftools.gif">
+      </div>
+      <div id="second">
+        What I Do?
+        <div id=skill>
+          <p>Passionate Full Stack Developer on a mission to master every tech stack and push boundaries in the digital world!</p>
+          <div id="logo">
+            <div>
+              <i class="fab fa-html5"></i>
+              <p>HTML-5</p>
+            </div>
+            <div>
+              <i class="fab fa-js"></i>
+              <p>JavaScript</p>
+            </div>
+            <div>
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS3</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-react"></i>
+              <p>ReactJS</p>
+            </div>
+            <div>
+              <i class="fas fa-fire"></i>
+              <p>Firebase</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-python"></i>
+              <p>Python</p>
+            </div>
+            <div>
+              <i class="fab fa-node"></i>
+              <p>nodejs</p>
+            </div>
+          </div>
+          <div id="logo-discription">
+              <p>I specialize in creating dynamic and responsive web applications.</p>
+              <p>From crafting elegant user interfaces to building robust backend systems,</p>
+              <p>I strive to deliver high-quality solutions that exceed expectations.</p>
+              <p>Explore my projects and skills to see my work in action!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Education">
+      <div id="Work">Education</div>
+      <div id="schoolname">
+        <div id="school">
+          <img src="ssoaback.png" id="ssoaimg" alt="Education Image">
+        </div>
+        <div id="education-content">
+          <h1>Sahjanand School of Achiever</h1>
+          <p>Excellence in education, shaping young minds for a bright future!</p>
+          <p>March 2020-2024</p>
+          <p>Passing GSEB bord with PCM(Physics,Chemistry,Matsh)</p>
+            <p>10th Bord with 91%</p>
+            <p>!2th bord with 82%</p>
+            <p>JEE clear with 96.58pr</p>
+        </div>
+      </div>
+      <div class="collagename">
+        <div id="collage">
+          <img src="NSTLOGO.png" height="240px" id="collagelogo">
+        </div>
+        <div id="nst">
+          <h1>Newton School of Technology</h1>
+          <p><strong>Bachelor of Science in Computer Science</strong></p>
+          <p><em>2024 - 2028</em></p>
+          <p>Striving to become an exceptional competitive programmer with a deep mastery of Data Structures and Algorithms (DSA).</p>
+        </div>
+      </div>
+    </section>
   </main>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
   <script>
@@ -156,7 +349,6 @@
     typeSpeed: 35,
     cursorChar: ""  
     });
-
  </script> 
 </body>
-</html> 
+</html>
